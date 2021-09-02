@@ -49,7 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
         onPressed: () => showDialog(
           context: context,
           builder: (BuildContext context) => AddTodoDialogWidget(),
-          barrierDismissible: false,
+          barrierDismissible: true,
         ),
         child: Icon(Icons.add),
       ),
